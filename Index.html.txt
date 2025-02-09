@@ -1,13 +1,16 @@
-<?php
-$host = "localhost";  // Change if using a remote server
-$user = "root";  // Your MySQL username
-$pass = "";  // Your MySQL password
-$dbname = "toritfx";
-
-try {
-    $pdo = new PDO("mysql:host=$host;dbname=$dbname", $user, $pass);
-    $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-} catch (PDOException $e) {
-    die("Connection failed: " . $e->getMessage());
-}
-?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToritFX Trading</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to ToritFX Trading</h1>
+        <p>The best platform for seamless trading.</p>
+        <a href="register.php" class="btn">Get Started</a>
+    </header>
+</body>
+</html>
