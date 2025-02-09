@@ -1,0 +1,13 @@
+ToritFX-Trading/
+│── index.php              # Homepage  
+│── register.php           # User Registration  
+│── login.php              # User Login  
+│── dashboard.php          # User Dashboard  
+│── deposit.php            # User Deposits  
+│── withdraw.php           # User Withdrawals  
+│── trade.php              # Trading System  
+│── admin.php              # Admin Panel  
+│── config.php             # Database Configuration  
+│── styles.css             # Stylesheet  
+│── database.sql           # Database Setup  
+└── images/                # Logo & Assets
